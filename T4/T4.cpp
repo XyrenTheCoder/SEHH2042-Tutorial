@@ -220,7 +220,7 @@ void Q4()
 	}
 }
 
-void Q5(int argc, char *argv[])
+void Q5()
 {
 	cout << "hi theres no q5, bye!" << endl;
 }
