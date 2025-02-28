@@ -1,5 +1,5 @@
 # SEHH2042 Tutorial Exercise (2025)
-## By Group B06B
+## By A Member of Group B06B
 
 ### Disclaimer
 I do not encourage copying due to plagiarism. <br>
