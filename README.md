@@ -4,4 +4,4 @@
 ### Disclaimer
 I do not encourage copying due to plagiarism. <br>
 If actions are being found, I will not be responsible for your actions. <br>
-All the programs in this repository is not guaranteed to be 100% correct or optimised.
+All the programs in this repository are not guaranteed to be 100% correct or optimised.
