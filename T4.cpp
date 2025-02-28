@@ -13,7 +13,7 @@ void showInfo()
 {
 	// Fill in your personal particulars below
 	cout << "Name      : Hidden\n";
-	cout << "Student ID: 24010571A\n";
+	cout << "Student ID: Hidden\n";
 	cout << "Class     : B06\n";
 }
 
