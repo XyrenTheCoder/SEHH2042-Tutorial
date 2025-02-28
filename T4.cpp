@@ -12,7 +12,7 @@ using namespace std;
 void showInfo()
 {
 	// Fill in your personal particulars below
-	cout << "Name      : Ngai Wing Lam\n";
+	cout << "Name      : Hidden\n";
 	cout << "Student ID: 24010571A\n";
 	cout << "Class     : B06\n";
 }
