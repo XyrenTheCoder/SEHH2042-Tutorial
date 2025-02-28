@@ -222,18 +222,7 @@ void Q4()
 
 void Q5(int argc, char *argv[])
 {
-	// cout << "hi theres no q5, bye!" << endl;
-	int i = 1;
-    string url = "https://youtu.be/xvFZjo5PgG0?si=tCQpj3MEvoSIt7ws";
-
-    for (; i < argc; i++) {
-        url = url + string(argv[i]);
-        if (i != argc-1) url = url + string("+");
-    }
-
-    cout << url << endl;
-    string op = string("open ").append(url);
-    system(op.c_str());
+	cout << "hi theres no q5, bye!" << endl;
 }
 
 // IMPORTANT: DO NOT MODIFY main()
