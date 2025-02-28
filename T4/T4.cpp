@@ -12,8 +12,8 @@ using namespace std;
 void showInfo()
 {
 	// Fill in your personal particulars below
-	cout << "Name      : Hidden\n";
-	cout << "Student ID: Hidden\n";
+	cout << "Name      : HIDDEN\n";
+	cout << "Student ID: HIDDEN\n";
 	cout << "Class     : B06\n";
 }
 
