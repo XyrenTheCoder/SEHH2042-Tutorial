@@ -1,4 +1,4 @@
-# SEHH2042 Tutorial Exercise (2025)
+# SEHH2042 Tutorial Exercise (2024-25)
 ## By a member of Group B06B
 
 ### Disclaimer
