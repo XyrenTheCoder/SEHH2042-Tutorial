@@ -1,6 +1,9 @@
 # SEHH2042 Tutorial (2024-25)
 ### By a member of Group B06B
 
+<hr>
+This repository will be updated through time.
+
 ## Disclaimer (IMPORTANT)
 I do not encourage **plagiarism**. <br>
 If actions are being found, I will **not** be responsible for your actions. <br>
