@@ -2,7 +2,8 @@
 
 - Archived by a member from group B06B
 
-- This repository will be updated through time.
+This repository will be updated through time.
+Feel free to submit better/ optimised or debugged code.
 
 ## Disclaimer (IMPORTANT)
 I do not encourage **plagiarism**. <br>
