@@ -1,7 +1,6 @@
 # SEHH2042 Tutorial (2024-25)
 ### By a member of Group B06B
 
-<hr>
 ### This repository will be updated through time.
 
 ## Disclaimer (IMPORTANT)
