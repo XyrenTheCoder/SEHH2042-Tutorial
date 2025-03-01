@@ -1,4 +1,4 @@
-# SEHH2042 Tutorial (2024-25)
+# SEHH2042 (Computer Programming) Tutorial (2024-25, C++)
 
 - Archived by a member from group B06B
 
