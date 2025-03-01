@@ -2,7 +2,7 @@
 ### By a member of Group B06B
 
 <hr>
-This repository will be updated through time.
+### This repository will be updated through time.
 <hr>
 
 ## Disclaimer (IMPORTANT)
