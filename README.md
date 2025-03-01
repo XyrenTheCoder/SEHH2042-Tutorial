@@ -3,7 +3,8 @@
 - Archived by a member from group B06B
 
 This repository will be updated through time. <br>
-Feel free to submit better/ optimised or debugged code.
+Feel free to submit better/ optimised or debugged code. <br>
+Issues are allowed to be opened.
 
 ## Disclaimer (IMPORTANT)
 I do not encourage **plagiarism**. <br>
