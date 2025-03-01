@@ -134,6 +134,7 @@ void Q2()
 void Q3()
 {
 	/* odd version
+ 
 	print a P according to size */
 
 	// init
