@@ -33,12 +33,12 @@ void Q1()
 		cin >> input; // user input
 		
 		if ((input > 0) && (input % 2 != 0)) { // positive and odd
-		    posodd++;
-		    sum = sum + input;
+			posodd++;
+			sum = sum + input;
 
 		} else if ((input < 0) && (input % 2 == 0)) { // negative and even
-		    negeven++;
-		    sum = sum + input;
+			negeven++;
+			sum = sum + input;
 
 		} else if (input == 0) {
 			continue; // ignore as 0 is not counted
@@ -127,14 +127,14 @@ void Q2()
 		total = charging + (parking * phr);
 	}
 
-  // output
+	// output
 	cout << fixed << setprecision(2) << total; // output in 2 d.p.
 }
 
 void Q3()
 {
 	/* odd version
- 
+
 	print a P according to size */
 
 	// init
