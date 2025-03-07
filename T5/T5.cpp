@@ -104,7 +104,7 @@ void Q4()
 		cout << endl;
 	}
 	
-	// patern b
+	// pattern b
 	for (int i=1; i<=5; i++) {
         nChar(5-i, ' ');
 		nChar(i, '*');
@@ -145,7 +145,7 @@ void Q4()
 			nChar(10/4-i, ' ');
 			cout << endl;
 		}
-    }
+    	}
 }
 
 void Q5()
