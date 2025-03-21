@@ -80,7 +80,7 @@ float sumAvg(int lower, int upper, int &sum, float &average) {
 
 
 // q3 proto
-double calcPI(int &);
+double calcPI(int &); // pass-by can be ignored/ omitted
 
 // global variable because i didnt manage to make a local one work
 int i = 1, j = 0;
