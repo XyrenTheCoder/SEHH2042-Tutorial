@@ -95,7 +95,7 @@ void Q3()
 	cout << "PI with " << terms << " terms is " << fixed << setprecision(15) << calcPI(terms);
 }
 
-// q3 def
+// q3 def, dont ask how it worked because i dont fucking know, i spent 4 hours on this one so sorry for the profanity
 double calcPI(int &t) {
 	/* iterative approach from T4:
 
