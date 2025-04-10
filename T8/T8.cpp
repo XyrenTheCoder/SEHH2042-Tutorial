@@ -21,15 +21,6 @@ void showInfo()
 
 void printData(int list[], int size);
 
-void printData(int list[], int size) {
-	for (int j=0; j<size; j++) {
-	    cout << fixed << setw(5) << list[j];
-	    if (j % 5 == 4) {
-	        cout << endl;
-	    }
-	}
-}
-
 void Q1()
 {
 	int inp;
@@ -53,17 +44,17 @@ void Q1()
 	printData(a, inp);
 }
 
-
-void printBar(int list[], int size);
-
-void printBar(int list[], int size) {
+void printData(int list[], int size) {
 	for (int j=0; j<size; j++) {
-		for (int k=0; k<list[j]; k++) {
-			cout << "*";
-		}
-		cout << endl;
+	    cout << fixed << setw(5) << list[j];
+	    if (j % 5 == 4) {
+	        cout << endl;
+	    }
 	}
 }
+
+
+void printBar(int list[], int size);
 
 void Q2()
 {
@@ -88,47 +79,21 @@ void Q2()
 	printBar(a, inp);
 }
 
+void printBar(int list[], int size) {
+	for (int j=0; j<size; j++) {
+		for (int k=0; k<list[j]; k++) {
+			cout << "*";
+		}
+		cout << endl;
+	}
+}
+
 
 void printData3(int list[], int size);
 
-void printData3(int list[], int size) {
-	for (int i=0; i<size; i++) {
-		list[i] = 1 + rand() % 100;
-
-		cout << setw(5) << list[i];
-	    if (i % 5 == 4) {
-	        cout << endl;
-	    }
-	}
-}
-
 int largest (int list[], int size);
 
-int largest (int list[], int size) {
-	int max = 0;
-
-	for (int i=0; i<size; i++) {
-		if (list[i] > max) {
-			max = list[i];
-		}
-	}
-
-	return max;
-}
-
 double average(int list[], int size);
-
-double average(int list[], int size) {
-	int sum = 0;
-	double avg;
-
-	for (int i=0; i<size; i++) {
-		sum = sum + list[i];
-	}
-
-	avg = (double)sum/size;
-	return avg;
-}
 
 void Q3()
 {
@@ -162,38 +127,45 @@ void Q3()
 	cout << "The average value is: " << average(arr, 20);
 }
 
-
-void printData4(int list[], int size);
-
-void printData4(int list[], int size) {
+void printData3(int list[], int size) {
 	for (int i=0; i<size; i++) {
-		list[i] = 1 + rand() % 10;
+		list[i] = 1 + rand() % 100;
 
 		cout << setw(5) << list[i];
-	    if (i % 10 == 9) {
+	    if (i % 5 == 4) {
 	        cout << endl;
 	    }
 	}
 }
 
-void maxAppear(int list[], int &max, int &freq);
+int largest (int list[], int size) {
+	int max = 0;
 
-void maxAppear(int list[], int &max, int &freq) {
-	int f[10] = {};
+	for (int i=0; i<size; i++) {
+		if (list[i] > max) {
+			max = list[i];
+		}
+	}
 
-	for (int i=0; i<100; i++) {
-        f[list[i]]++; // count frequency
-	}
-	
-	for (int j=0; j<10; j++) {
-	    if (f[j] > freq) {
-	        freq = f[j];
-	        max = j;
-	    }
-	}
-	
-	cout << max << " appears the most with " << freq << " times";
+	return max;
 }
+
+double average(int list[], int size) {
+	int sum = 0;
+	double avg;
+
+	for (int i=0; i<size; i++) {
+		sum = sum + list[i];
+	}
+
+	avg = (double)sum/size;
+	return avg;
+}
+
+
+void printData4(int list[], int size);
+
+void maxAppear(int list[], int &max, int &freq);
 
 void Q4()
 {
@@ -227,6 +199,34 @@ void Q4()
 	
 	// cout << maxind << " appears the most with " << max << " times";
 	maxAppear(arr, max, freq);
+}
+
+void printData4(int list[], int size) {
+	for (int i=0; i<size; i++) {
+		list[i] = 1 + rand() % 10;
+
+		cout << setw(5) << list[i];
+	    if (i % 10 == 9) {
+	        cout << endl;
+	    }
+	}
+}
+
+void maxAppear(int list[], int &max, int &freq) {
+	int f[10] = {};
+
+	for (int i=0; i<100; i++) {
+        f[list[i]]++; // count frequency
+	}
+	
+	for (int j=0; j<10; j++) {
+	    if (f[j] > freq) {
+	        freq = f[j];
+	        max = j;
+	    }
+	}
+	
+	cout << max << " appears the most with " << freq << " times";
 }
 
 
